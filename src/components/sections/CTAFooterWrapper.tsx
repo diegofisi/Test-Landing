@@ -2,9 +2,9 @@ import { Button } from "@/components/ui/button"
 import { useHlsVideo } from "@/hooks/useHlsVideo"
 
 const footerLinks = {
-  Product: ["Features", "Pricing", "Integrations", "Changelog", "Roadmap"],
-  Company: ["About", "Blog", "Careers", "Press"],
-  Resources: ["Documentation", "Community", "Support", "Status"],
+  Servicios: ["Desarrollo Web", "Apps Móviles", "Consultoría TI", "Cloud & DevOps", "Staff Augmentation"],
+  Empresa: ["Nosotros", "Blog", "Carreras", "Contacto"],
+  Recursos: ["Documentación", "Casos de Éxito", "Soporte", "FAQ"],
 }
 
 export function CTAFooterWrapper() {
@@ -37,16 +37,16 @@ export function CTAFooterWrapper() {
         <div className="max-w-4xl mx-auto">
           <div className="liquid-glass liquid-glass-border rounded-[2rem] p-12 sm:p-20 text-center">
             <h2 className="text-hero-heading text-3xl sm:text-5xl font-semibold leading-tight mb-5">
-              Ready to Outpace
+              ¿Listo para Llevar
               <br />
-              Your Pipeline Targets?
+              Tu Negocio al Siguiente Nivel?
             </h2>
             <p className="text-muted-foreground max-w-lg mx-auto mb-8">
-              Join 2,400+ teams already accelerating revenue with APEX. No credit card required.
+              Más de 200 empresas ya confían en GM2 para sus soluciones tecnológicas. Agenda una consulta gratuita.
             </p>
             <div className="flex gap-4 justify-center">
-              <Button variant="hero">Start Free Today</Button>
-              <Button variant="heroSecondary">Talk to Sales</Button>
+              <Button variant="hero">Agenda una Consulta</Button>
+              <Button variant="heroSecondary">Contáctanos</Button>
             </div>
           </div>
         </div>
@@ -64,10 +64,10 @@ export function CTAFooterWrapper() {
                     <path d="M7 0v14M0 7h14M2 2l10 10M12 2L2 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
                   </svg>
                 </div>
-                <span className="text-xl font-semibold text-foreground">APEX</span>
+                <span className="text-xl font-semibold text-foreground">GM2</span>
               </div>
               <p className="text-muted-foreground text-sm max-w-xs">
-                Revenue acceleration platform for modern go-to-market teams.
+                Consultoría de software para equipos modernos que buscan transformación digital.
               </p>
             </div>
 
@@ -90,13 +90,13 @@ export function CTAFooterWrapper() {
 
           {/* Bottom Bar */}
           <div className="border-t border-border/30 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-            <span className="text-muted-foreground text-xs">&copy; 2026 APEX Inc.</span>
+            <span className="text-muted-foreground text-xs">&copy; 2026 GM2 Consultoría de Software.</span>
             <div className="flex gap-6">
               <a href="#" className="text-muted-foreground text-xs hover:text-foreground transition-colors">
-                Privacy
+                Privacidad
               </a>
               <a href="#" className="text-muted-foreground text-xs hover:text-foreground transition-colors">
-                Terms
+                Términos
               </a>
               <a href="#" className="text-muted-foreground text-xs hover:text-foreground transition-colors">
                 Cookies

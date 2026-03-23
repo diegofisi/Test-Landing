@@ -1,24 +1,24 @@
 const testimonials = [
   {
     quote:
-      "APEX transformed how our revenue team operates. We went from guessing to data-driven decisions overnight. Pipeline velocity increased by 40% in the first quarter.",
-    name: "Clara Whitfield",
-    role: "VP Revenue, Meridian Health",
-    initials: "CW",
+      "GM2 transformó por completo nuestra operación digital. Pasamos de procesos manuales a un sistema integrado que nos ahorra horas cada día. Su equipo entendió nuestras necesidades desde el primer momento.",
+    name: "María González",
+    role: "Directora de Tecnología, Grupo Finova",
+    initials: "MG",
   },
   {
     quote:
-      "The lead routing alone paid for itself in week one. Our reps are closing faster because they're talking to the right prospects at the right time. Game changer.",
-    name: "Derek Tanaka",
-    role: "Growth Lead, Baseform",
-    initials: "DT",
+      "El equipo de GM2 se integró a nuestro proyecto como si fueran parte de la empresa. La calidad del código y su compromiso con los plazos de entrega superaron todas nuestras expectativas.",
+    name: "Carlos Mendoza",
+    role: "CTO, LogiRed Solutions",
+    initials: "CM",
   },
   {
     quote:
-      "We evaluated six platforms before choosing APEX. The compliance engine and analytics depth are unmatched. Our board loves the reporting granularity.",
-    name: "Simone Reuter",
-    role: "CRO, Alpenhaus Group",
-    initials: "SR",
+      "Evaluamos varias consultoras antes de elegir a GM2. Su experiencia técnica y enfoque estratégico marcaron la diferencia. Nuestro sistema ahora escala sin problemas.",
+    name: "Ana Rodríguez",
+    role: "Gerente de Operaciones, Salud+ Digital",
+    initials: "AR",
   },
 ]
 
@@ -29,12 +29,12 @@ export function TestimonialsSection() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-hero-heading text-3xl sm:text-5xl font-semibold leading-tight">
-            Trusted by Revenue
+            La Confianza de
             <br />
-            Leaders Everywhere
+            Nuestros Clientes
           </h2>
           <p className="text-muted-foreground text-lg mt-4">
-            Hear from the teams that made the switch.
+            Lo que dicen las empresas que ya trabajan con nosotros.
           </p>
         </div>
 

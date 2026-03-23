@@ -4,27 +4,27 @@ import { useHlsVideo } from "@/hooks/useHlsVideo"
 const features = [
   {
     icon: Zap,
-    title: "Lightning Workflows",
+    title: "Desarrollo a Medida",
     description:
-      "Automate repetitive tasks with intelligent pipelines that adapt to your team's rhythm and velocity.",
-    statValue: "3.2x faster",
-    statLabel: "pipeline throughput",
+      "Creamos aplicaciones web y móviles personalizadas que se adaptan a los procesos y objetivos de tu empresa.",
+    statValue: "150+",
+    statLabel: "proyectos entregados",
   },
   {
     icon: BarChart3,
-    title: "Deep-Dive Analytics",
+    title: "Consultoría Estratégica",
     description:
-      "Uncover patterns hiding in your funnel. Real-time cohort analysis with zero configuration required.",
-    statValue: "148%",
-    statLabel: "avg. conversion lift",
+      "Analizamos tu infraestructura tecnológica y diseñamos hojas de ruta para optimizar tus operaciones digitales.",
+    statValue: "98%",
+    statLabel: "satisfacción del cliente",
   },
   {
     icon: Shield,
-    title: "Compliance Engine",
+    title: "Calidad y Seguridad",
     description:
-      "SOC 2, GDPR, and HIPAA guardrails baked into every interaction. Audit trails generated automatically.",
+      "Implementamos las mejores prácticas de desarrollo seguro, testing automatizado y estándares de calidad en cada proyecto.",
     statValue: "Zero",
-    statLabel: "compliance incidents",
+    statLabel: "incidentes de seguridad",
   },
 ]
 
@@ -54,18 +54,18 @@ export function FeaturesSection() {
         {/* Header */}
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 liquid-glass liquid-glass-border rounded-full px-4 py-1.5 text-sm mb-6">
-            <span className="text-foreground/70">Core Platform</span>
+            <span className="text-foreground/70">Nuestros Servicios</span>
             <span className="bg-white/10 rounded-full px-2.5 py-0.5 text-xs flex items-center gap-1 text-foreground">
-              Overview <ChevronRight className="w-3 h-3" />
+              Explorar <ChevronRight className="w-3 h-3" />
             </span>
           </div>
           <h2 className="text-hero-heading text-3xl sm:text-5xl font-semibold leading-tight">
-            Built for Teams That
+            Soluciones Tecnológicas
             <br />
-            Ship Relentlessly
+            que Impulsan Resultados
           </h2>
           <p className="text-hero-sub text-lg mt-4 max-w-lg mx-auto opacity-80">
-            Three pillars that keep your revenue engine humming without the operational drag.
+            Tres pilares fundamentales que garantizan el éxito de tu transformación digital.
           </p>
         </div>
 

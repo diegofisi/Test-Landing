@@ -8,9 +8,9 @@ export function ChessSection() {
   )
 
   const bullets = [
-    "AI-scored lead qualification",
-    "Dynamic rep assignment",
-    "Multi-touch attribution",
+    "Arquitectura de software escalable",
+    "Integración de sistemas y APIs",
+    "Migración a la nube y DevOps",
   ]
 
   return (
@@ -31,19 +31,19 @@ export function ChessSection() {
         {/* Right — Content */}
         <div>
           <div className="inline-flex items-center gap-2 liquid-glass liquid-glass-border rounded-full px-4 py-1.5 text-sm mb-6">
-            <span className="text-foreground/70">Smart Routing</span>
+            <span className="text-foreground/70">Desarrollo de Software</span>
             <span className="bg-white/10 rounded-full px-2.5 py-0.5 text-xs flex items-center gap-1 text-primary">
-              New <ChevronRight className="w-3 h-3" />
+              Nuevo <ChevronRight className="w-3 h-3" />
             </span>
           </div>
           <h2 className="text-hero-heading text-3xl sm:text-5xl font-semibold leading-tight mb-5">
-            Every Lead Finds
+            Tu Visión, Nuestra
             <br />
-            Its Perfect Path
+            Experiencia Técnica
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-6">
-            Intelligent lead scoring meets adaptive routing. Each prospect is matched to the rep,
-            sequence, and cadence most likely to convert — in real time.
+            Combinamos metodologías ágiles con tecnologías de vanguardia para desarrollar
+            soluciones robustas y escalables que se adaptan al crecimiento de tu negocio.
           </p>
           <ul className="space-y-3 mb-8">
             {bullets.map((item) => (
@@ -54,8 +54,8 @@ export function ChessSection() {
             ))}
           </ul>
           <div className="flex gap-4">
-            <Button variant="hero">See It in Action</Button>
-            <Button variant="heroSecondary">Read the Docs</Button>
+            <Button variant="hero">Ver Proyectos</Button>
+            <Button variant="heroSecondary">Nuestras Tecnologías</Button>
           </div>
         </div>
       </div>

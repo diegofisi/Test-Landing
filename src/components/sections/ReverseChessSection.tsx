@@ -3,10 +3,10 @@ import { Button } from "@/components/ui/button"
 import { useHlsVideo } from "@/hooks/useHlsVideo"
 
 const stats = [
-  { value: "47.2%", label: "win-rate increase" },
-  { value: "12 days", label: "shorter sales cycle" },
-  { value: "2.8x", label: "deal velocity" },
-  { value: "91%", label: "forecast accuracy" },
+  { value: "10+", label: "años de experiencia" },
+  { value: "50+", label: "profesionales expertos" },
+  { value: "200+", label: "clientes satisfechos" },
+  { value: "99%", label: "proyectos exitosos" },
 ]
 
 export function ReverseChessSection() {
@@ -20,19 +20,19 @@ export function ReverseChessSection() {
         {/* Left — Content */}
         <div className="order-2 lg:order-1">
           <div className="inline-flex items-center gap-2 liquid-glass liquid-glass-border rounded-full px-4 py-1.5 text-sm mb-6">
-            <span className="text-foreground/70">Pipeline Studio</span>
+            <span className="text-foreground/70">Equipos Dedicados</span>
             <span className="bg-white/10 rounded-full px-2.5 py-0.5 text-xs flex items-center gap-1 text-primary">
-              Beta <ChevronRight className="w-3 h-3" />
+              Staff Augmentation <ChevronRight className="w-3 h-3" />
             </span>
           </div>
           <h2 className="text-hero-heading text-3xl sm:text-5xl font-semibold leading-tight mb-5">
-            Design Funnels
+            Talento Experto
             <br />
-            That Actually Close
+            para Tu Equipo
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-6">
-            Drag-and-drop pipeline builder with live conversion metrics at every stage. See exactly
-            where deals stall and why.
+            Ampliamos tu equipo de desarrollo con profesionales especializados que se integran
+            a tu cultura y procesos. Escala tu capacidad técnica sin complicaciones.
           </p>
           <div className="grid grid-cols-2 gap-4 mb-8">
             {stats.map((stat) => (
@@ -45,7 +45,7 @@ export function ReverseChessSection() {
               </div>
             ))}
           </div>
-          <Button variant="hero">Try Pipeline Studio</Button>
+          <Button variant="hero">Conoce Nuestro Equipo</Button>
         </div>
 
         {/* Right — Video */}

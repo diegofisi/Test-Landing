@@ -3,12 +3,12 @@ import { ChevronRight, ChevronDown } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const brands = [
-  { name: "Vortex", letter: "V" },
-  { name: "Nimbus", letter: "N" },
-  { name: "Prysma", letter: "P" },
-  { name: "Cirrus", letter: "C" },
-  { name: "Kynder", letter: "K" },
-  { name: "Halcyn", letter: "H" },
+  { name: "TechCorp", letter: "T" },
+  { name: "Finova", letter: "F" },
+  { name: "Salud+", letter: "S" },
+  { name: "LogiRed", letter: "L" },
+  { name: "EduPro", letter: "E" },
+  { name: "RetailX", letter: "R" },
 ]
 
 const allBrands = [...brands, ...brands]
@@ -59,24 +59,24 @@ export function HeroSection() {
                 <path d="M7 0v14M0 7h14M2 2l10 10M12 2L2 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
               </svg>
             </div>
-            <span className="text-xl font-semibold text-foreground">APEX</span>
+            <span className="text-xl font-semibold text-foreground">GM2</span>
           </div>
           <div className="hidden md:flex items-center gap-1">
             <button className="px-3 py-1.5 text-sm text-foreground/70 hover:text-foreground transition-colors flex items-center gap-1">
-              Features <ChevronDown className="w-3 h-3" />
+              Servicios <ChevronDown className="w-3 h-3" />
             </button>
             <button className="px-3 py-1.5 text-sm text-foreground/70 hover:text-foreground transition-colors">
-              Solutions
+              Soluciones
             </button>
             <button className="px-3 py-1.5 text-sm text-foreground/70 hover:text-foreground transition-colors">
-              Plans
+              Nosotros
             </button>
             <button className="px-3 py-1.5 text-sm text-foreground/70 hover:text-foreground transition-colors flex items-center gap-1">
-              Learning <ChevronDown className="w-3 h-3" />
+              Recursos <ChevronDown className="w-3 h-3" />
             </button>
           </div>
           <Button variant="hero" size="sm" className="rounded-full text-xs px-4 py-1.5 h-auto">
-            Sign Up
+            Contactar
           </Button>
         </nav>
 
@@ -84,37 +84,37 @@ export function HeroSection() {
         <div className="flex-1 flex flex-col items-center justify-center text-center -mt-12">
           {/* Announcement Badge */}
           <div className="liquid-glass liquid-glass-border rounded-full px-4 py-1.5 flex items-center gap-2 text-sm mb-8">
-            <span className="text-foreground/70">Nova+ Launched!</span>
+            <span className="text-foreground/70">Consultoría de Software</span>
             <span className="bg-white/10 rounded-full px-2.5 py-0.5 text-xs flex items-center gap-1 text-foreground">
-              Explore <ChevronRight className="w-3 h-3" />
+              Conoce más <ChevronRight className="w-3 h-3" />
             </span>
           </div>
 
           {/* Heading */}
           <h1 className="text-hero-heading text-4xl sm:text-6xl lg:text-7xl font-semibold leading-[1.05] tracking-tight max-w-5xl">
-            Accelerate Your Revenue
+            Transformamos Ideas
             <br />
-            Growth Now
+            en Software
           </h1>
 
           {/* Subheading */}
           <p className="text-hero-sub text-lg max-w-md mt-4 opacity-80">
-            Drive your funnel forward with clever workflows, analytics, and seamless lead management.
+            Impulsamos tu negocio con soluciones tecnológicas a medida, consultoría estratégica y equipos de desarrollo de alto rendimiento.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex gap-4 mt-8">
-            <Button variant="hero">Start Free Right Now</Button>
-            <Button variant="heroSecondary">Schedule a Consult</Button>
+            <Button variant="hero">Solicita una Consulta</Button>
+            <Button variant="heroSecondary">Ver Nuestros Servicios</Button>
           </div>
         </div>
 
         {/* Social Proof Bar */}
         <div className="w-full max-w-6xl flex items-center gap-8 pb-12">
           <p className="text-foreground/50 text-sm leading-tight shrink-0 text-left">
-            Relied on by brands
+            Empresas que confían
             <br />
-            across the globe
+            en nosotros
           </p>
           <div className="flex-1 overflow-hidden">
             <div className="flex animate-marquee w-max gap-6">
